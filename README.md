@@ -1,16 +1,17 @@
 # Binários para fazer o Build do NuttX pro ESP32
 
-## Como usá-los 
+## Como usar os binários prontos 
 
 Acesse o repositório do Nuttx previamente clonado
  `cd ~/nuttxspace/nuttx`
 e faça o download do bootloader de segundo estágio e da tabela de partição:
 
-`wget XXX`
+`wget https://github.com/saramonteiro/esp32_binaries_nuttx/blob/main/bootloader.bin`
 
-`wget XXX`
+`wget https://github.com/saramonteiro/esp32_binaries_nuttx/blob/main/partitions.bin`
 
-## Como gerá-los
+
+## Como gerar os binários
 
 1. Instale a versão mais atual e **estável** do ESP-IDF:
 
