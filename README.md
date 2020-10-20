@@ -36,12 +36,10 @@ e faça o download do bootloader de segundo estágio e da tabela de partição:
  
   `cd hello_world`
   
-3. Ative o ambiente virtual.
-
-`. $HOME/esp/esp-idf/export.sh`
-
 3. Desabilite o RTC 
 
+ * Para executar o makefile, é necessário estar com o ambiente virtual do IDF instalado. Execute o seguinte comando para ativá-lo:
+ `. $HOME/esp/esp-idf/export.sh`
  * Execute `make menuconfig` para acessar o menu de configuração.
  * Acesse *Bootloader Config -> * 
 
