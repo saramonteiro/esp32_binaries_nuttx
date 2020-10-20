@@ -35,6 +35,10 @@ e faça o download do bootloader de segundo estágio e da tabela de partição:
  * Entre no diretório do exemplo.
  
   `cd hello_world`
+  
+3. Ative o ambiente virtual.
+
+`. $HOME/esp/esp-idf/export.sh`
 
 3. Desabilite o RTC 
 
