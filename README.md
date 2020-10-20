@@ -41,7 +41,13 @@ e faça o download do bootloader de segundo estágio e da tabela de partição:
  * Para executar o makefile, é necessário estar com o ambiente virtual do IDF instalado. Execute o seguinte comando para ativá-lo:
  `. $HOME/esp/esp-idf/export.sh`
  * Execute `make menuconfig` para acessar o menu de configuração.
- * Acesse *Bootloader Config -> * 
+ * Acesse Bootloader Config -> Use RTC Watchdog in start code e clique em `N` para desabilitar.
+ 
+ ![Selecione Boot Config](https://github.com/saramonteiro/esp32_binaries_nuttx/blob/main/bootconfig.png)
+ 
+ ![Desabilite o watchdog RTC no código de inicialização](https://github.com/saramonteiro/esp32_binaries_nuttx/blob/main/rtcdisable.png)
+ 
+ Salve a configuração e continue!
 
 4. Faça o build para obter os binários.
 
