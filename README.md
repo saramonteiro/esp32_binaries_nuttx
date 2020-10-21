@@ -55,13 +55,13 @@ e faça o download do bootloader de segundo estágio e da tabela de partição:
 
 4. Faça o build para obter os binários.
 
-`make`
+`idf.py build`
 
 5. Copie os binários gerados para o diretório do NuttX.
 
 `cp build/bootloader/bootloader.bin ~/nuttxspace/nuttx/`
 
-`cp build/partitions_singleapp.bin ~/nuttxspace/nuttx/partitions.bin`
+`cp build/partition-table/partition-table.bin ~/nuttxspace/nuttx/partitions.bin`
 
 Pronto, agora você já tem tudo que precisa da IDF e pode continuar com o processo de build do NuttX!
 
