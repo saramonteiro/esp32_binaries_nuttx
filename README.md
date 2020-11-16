@@ -9,9 +9,9 @@ Access the previously cloned Nuttx repository
  `cd ~/nuttxspace/nuttx`
 and download the second stage bootloader and the partition table:
 
-`wget https://github.com/saramonteiro/esp32_binaries_nuttx/blob/main/bootloader.bin`
+`wget -O bootloader.bin https://github.com/saramonteiro/esp32_binaries_nuttx/blob/main/bootloader.bin?raw=true`
 
-`wget https://github.com/saramonteiro/esp32_binaries_nuttx/blob/main/partitions.bin`
+`wget -O partitions.bin https://github.com/saramonteiro/esp32_binaries_nuttx/blob/main/partitions.bin?raw=true`
 
   
 ## How to generate binaries
@@ -79,9 +79,9 @@ Acesse o repositório do Nuttx previamente clonado
  `cd ~/nuttxspace/nuttx`
 e faça o download do bootloader de segundo estágio e da tabela de partição:
 
-`wget https://github.com/saramonteiro/esp32_binaries_nuttx/blob/main/bootloader.bin`
+`wget -O bootloader.bin https://github.com/saramonteiro/esp32_binaries_nuttx/blob/main/bootloader.bin?raw=true`
 
-`wget https://github.com/saramonteiro/esp32_binaries_nuttx/blob/main/partitions.bin`
+`wget -O partitions.bin https://github.com/saramonteiro/esp32_binaries_nuttx/blob/main/partitions.bin?raw=true`
 
 
 ## Como gerar os binários
