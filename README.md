@@ -134,7 +134,7 @@ e faça o download do bootloader de segundo estágio e da tabela de partição:
 
 `cp build/bootloader/bootloader.bin ~/nuttxspace/nuttx/`
 
-`cp build/partition-table/partition-table.bin ~/nuttxspace/nuttx/partitions.bin`
+`cp build/partition_table/partition-table.bin ~/nuttxspace/nuttx/partitions.bin`
 
 Pronto, agora você já tem tudo que precisa do IDF e pode continuar com o processo de build do NuttX!
 
