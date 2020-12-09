@@ -64,7 +64,7 @@ and download the second stage bootloader and the partition table:
 
 `cp build/bootloader/bootloader.bin ~/nuttxspace/nuttx/`
 
-`cp build/partition-table/partition-table.bin ~/nuttxspace/nuttx/partitions.bin`
+`cp build/partition_table/partition-table.bin ~/nuttxspace/nuttx/partitions.bin`
 
 Okay, now you have everything you need from IDF and you can continue with the NuttX build process!
 
